@@ -63,7 +63,7 @@ web-scraper/
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/web-scraper.git
+git clone https://github.com/gauravksahni/web-scraper.git
 cd web-scraper
 ```
 
