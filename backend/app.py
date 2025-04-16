@@ -25,7 +25,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Database configuration
-DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://postgres:postgres@localhost:5432/webscraper")
+DATABASE_URL = os.getenv("DATABASE_URL")
 
 # Create SQLAlchemy engine and session
 engine = create_engine(DATABASE_URL)
